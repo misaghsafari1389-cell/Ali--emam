@@ -1,0 +1,542 @@
+{
+  "npc_01": {
+    "name": "Elder Merchant",
+    "role": "merchant",
+    "importance": "minor",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.65,
+      "honesty": 0.75,
+      "patience": 0.70,
+      "courage": 0.50,
+      "sociability": 0.80,
+      "seriousness": 0.70,
+      "curiosity": 0.60,
+      "trust": 0.70,
+      "fear": 0.20,
+      "respect": 0.75,
+      "temper": 0.15,
+      "generosity": 0.55
+    },
+    "daily_schedule": {
+      "morning": "open_shop",
+      "day": "sell",
+      "evening": "close_shop",
+      "night": "sleep"
+    },
+    "dialogue": {
+      "greeting": "Greetings, young one",
+      "friendly": "You have an honest face"
+    }
+  },
+  "npc_02": {
+    "name": "Young Worker",
+    "role": "worker",
+    "importance": "background",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.70,
+      "honesty": 0.85,
+      "patience": 0.60,
+      "courage": 0.65,
+      "sociability": 0.60,
+      "seriousness": 0.75,
+      "curiosity": 0.55,
+      "trust": 0.65,
+      "fear": 0.30,
+      "respect": 0.70,
+      "temper": 0.25,
+      "generosity": 0.60
+    },
+    "daily_schedule": {
+      "morning": "work",
+      "day": "work",
+      "evening": "rest",
+      "night": "sleep"
+    },
+    "dialogue": {
+      "greeting": "Hey there",
+      "friendly": "Good to see you"
+    }
+  },
+  "npc_03": {
+    "name": "Wise Scholar",
+    "role": "scholar",
+    "importance": "important",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.75,
+      "honesty": 0.95,
+      "patience": 0.90,
+      "courage": 0.60,
+      "sociability": 0.70,
+      "seriousness": 0.85,
+      "curiosity": 0.95,
+      "trust": 0.80,
+      "fear": 0.10,
+      "respect": 0.90,
+      "temper": 0.05,
+      "generosity": 0.65
+    },
+    "daily_schedule": {
+      "morning": "study",
+      "day": "teach",
+      "evening": "study",
+      "night": "sleep"
+    },
+    "dialogue": {
+      "greeting": "Welcome, seeker of knowledge",
+      "friendly": "You have an inquisitive mind"
+    }
+  },
+  "npc_04": {
+    "name": "Blacksmith",
+    "role": "blacksmith",
+    "importance": "minor",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.60,
+      "honesty": 0.80,
+      "patience": 0.55,
+      "courage": 0.85,
+      "sociability": 0.50,
+      "seriousness": 0.80,
+      "curiosity": 0.50,
+      "trust": 0.65,
+      "fear": 0.15,
+      "respect": 0.70,
+      "temper": 0.40,
+      "generosity": 0.50
+    },
+    "daily_schedule": {
+      "morning": "work",
+      "day": "work",
+      "evening": "work",
+      "night": "sleep"
+    },
+    "dialogue": {
+      "greeting": "What brings you to my forge",
+      "friendly": "Strength is earned through work"
+    }
+  },
+  "npc_05": {
+    "name": "Kind Elder Woman",
+    "role": "elder",
+    "importance": "important",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.95,
+      "honesty": 0.90,
+      "patience": 0.95,
+      "courage": 0.70,
+      "sociability": 0.85,
+      "seriousness": 0.65,
+      "curiosity": 0.70,
+      "trust": 0.90,
+      "fear": 0.20,
+      "respect": 0.95,
+      "temper": 0.05,
+      "generosity": 0.90
+    },
+    "daily_schedule": {
+      "morning": "wake",
+      "day": "visit",
+      "evening": "rest",
+      "night": "sleep"
+    },
+    "dialogue": {
+      "greeting": "Come, child, sit with me",
+      "friendly": "You have a good heart"
+    }
+  },
+  "npc_06": {
+    "name": "Young Merchant",
+    "role": "merchant",
+    "importance": "background",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.55,
+      "honesty": 0.60,
+      "patience": 0.50,
+      "courage": 0.65,
+      "sociability": 0.85,
+      "seriousness": 0.55,
+      "curiosity": 0.70,
+      "trust": 0.50,
+      "fear": 0.25,
+      "respect": 0.60,
+      "temper": 0.35,
+      "generosity": 0.45
+    },
+    "daily_schedule": {
+      "morning": "sell",
+      "day": "sell",
+      "evening": "close",
+      "night": "sleep"
+    }
+  },
+  "npc_07": {
+    "name": "Farmer",
+    "role": "farmer",
+    "importance": "background",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.75,
+      "honesty": 0.85,
+      "patience": 0.80,
+      "courage": 0.60,
+      "sociability": 0.55,
+      "seriousness": 0.75,
+      "curiosity": 0.45,
+      "trust": 0.75,
+      "fear": 0.25,
+      "respect": 0.70,
+      "temper": 0.20,
+      "generosity": 0.70
+    },
+    "daily_schedule": {
+      "morning": "work",
+      "day": "work",
+      "evening": "work",
+      "night": "sleep"
+    }
+  },
+  "npc_08": {
+    "name": "Curious Child",
+    "role": "citizen",
+    "importance": "minor",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.80,
+      "honesty": 0.90,
+      "patience": 0.45,
+      "courage": 0.70,
+      "sociability": 0.90,
+      "seriousness": 0.30,
+      "curiosity": 1.0,
+      "trust": 0.85,
+      "fear": 0.35,
+      "respect": 0.60,
+      "temper": 0.40,
+      "generosity": 0.75
+    },
+    "daily_schedule": {
+      "morning": "play",
+      "day": "play",
+      "evening": "rest",
+      "night": "sleep"
+    }
+  },
+  "npc_09": {
+    "name": "Traveler",
+    "role": "traveler",
+    "importance": "minor",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.65,
+      "honesty": 0.70,
+      "patience": 0.60,
+      "courage": 0.85,
+      "sociability": 0.75,
+      "seriousness": 0.60,
+      "curiosity": 0.85,
+      "trust": 0.60,
+      "fear": 0.20,
+      "respect": 0.65,
+      "temper": 0.30,
+      "generosity": 0.60
+    },
+    "daily_schedule": {
+      "morning": "travel",
+      "day": "travel",
+      "evening": "rest",
+      "night": "sleep"
+    }
+  },
+  "npc_10": {
+    "name": "Guard",
+    "role": "guard",
+    "importance": "minor",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.50,
+      "honesty": 0.80,
+      "patience": 0.65,
+      "courage": 0.95,
+      "sociability": 0.45,
+      "seriousness": 0.90,
+      "curiosity": 0.40,
+      "trust": 0.70,
+      "fear": 0.10,
+      "respect": 0.85,
+      "temper": 0.45,
+      "generosity": 0.40
+    },
+    "daily_schedule": {
+      "morning": "guard",
+      "day": "guard",
+      "evening": "guard",
+      "night": "patrol"
+    }
+  },
+  "npc_11": {
+    "name": "Fisherman",
+    "role": "worker",
+    "importance": "background",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.70,
+      "honesty": 0.75,
+      "patience": 0.85,
+      "courage": 0.65,
+      "sociability": 0.55,
+      "seriousness": 0.70,
+      "curiosity": 0.50,
+      "trust": 0.70,
+      "fear": 0.25,
+      "respect": 0.65,
+      "temper": 0.15,
+      "generosity": 0.65
+    },
+    "daily_schedule": {
+      "morning": "fish",
+      "day": "fish",
+      "evening": "fish",
+      "night": "sleep"
+    }
+  },
+  "npc_12": {
+    "name": "Healer",
+    "role": "scholar",
+    "importance": "important",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.95,
+      "honesty": 0.85,
+      "patience": 0.90,
+      "courage": 0.70,
+      "sociability": 0.75,
+      "seriousness": 0.80,
+      "curiosity": 0.80,
+      "trust": 0.85,
+      "fear": 0.15,
+      "respect": 0.90,
+      "temper": 0.05,
+      "generosity": 0.85
+    },
+    "daily_schedule": {
+      "morning": "heal",
+      "day": "heal",
+      "evening": "heal",
+      "night": "sleep"
+    }
+  },
+  "npc_13": {
+    "name": "Street Vendor",
+    "role": "merchant",
+    "importance": "background",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.60,
+      "honesty": 0.65,
+      "patience": 0.55,
+      "courage": 0.60,
+      "sociability": 0.85,
+      "seriousness": 0.50,
+      "curiosity": 0.65,
+      "trust": 0.55,
+      "fear": 0.30,
+      "respect": 0.60,
+      "temper": 0.35,
+      "generosity": 0.50
+    },
+    "daily_schedule": {
+      "morning": "setup",
+      "day": "sell",
+      "evening": "sell",
+      "night": "sleep"
+    }
+  },
+  "npc_14": {
+    "name": "Caravan Master",
+    "role": "traveler",
+    "importance": "important",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.65,
+      "honesty": 0.85,
+      "patience": 0.70,
+      "courage": 0.90,
+      "sociability": 0.70,
+      "seriousness": 0.80,
+      "curiosity": 0.70,
+      "trust": 0.75,
+      "fear": 0.10,
+      "respect": 0.85,
+      "temper": 0.25,
+      "generosity": 0.60
+    },
+    "daily_schedule": {
+      "morning": "prepare",
+      "day": "travel",
+      "evening": "travel",
+      "night": "camp"
+    }
+  },
+  "npc_15": {
+    "name": "Shy Neighbor",
+    "role": "citizen",
+    "importance": "minor",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.75,
+      "honesty": 0.80,
+      "patience": 0.70,
+      "courage": 0.45,
+      "sociability": 0.40,
+      "seriousness": 0.65,
+      "curiosity": 0.60,
+      "trust": 0.70,
+      "fear": 0.45,
+      "respect": 0.75,
+      "temper": 0.10,
+      "generosity": 0.70
+    },
+    "daily_schedule": {
+      "morning": "chore",
+      "day": "chore",
+      "evening": "rest",
+      "night": "sleep"
+    }
+  },
+  "npc_16": {
+    "name": "Confident Youth",
+    "role": "citizen",
+    "importance": "background",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.60,
+      "honesty": 0.70,
+      "patience": 0.50,
+      "courage": 0.85,
+      "sociability": 0.85,
+      "seriousness": 0.50,
+      "curiosity": 0.70,
+      "trust": 0.65,
+      "fear": 0.15,
+      "respect": 0.65,
+      "temper": 0.50,
+      "generosity": 0.55
+    },
+    "daily_schedule": {
+      "morning": "roam",
+      "day": "roam",
+      "evening": "gather",
+      "night": "sleep"
+    }
+  },
+  "npc_17": {
+    "name": "Gentle Neighbor",
+    "role": "citizen",
+    "importance": "minor",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.85,
+      "honesty": 0.80,
+      "patience": 0.80,
+      "courage": 0.55,
+      "sociability": 0.70,
+      "seriousness": 0.60,
+      "curiosity": 0.60,
+      "trust": 0.80,
+      "fear": 0.30,
+      "respect": 0.80,
+      "temper": 0.10,
+      "generosity": 0.80
+    },
+    "daily_schedule": {
+      "morning": "help",
+      "day": "help",
+      "evening": "rest",
+      "night": "sleep"
+    }
+  },
+  "npc_18": {
+    "name": "Stern Elder",
+    "role": "elder",
+    "importance": "important",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.65,
+      "honesty": 0.95,
+      "patience": 0.75,
+      "courage": 0.80,
+      "sociability": 0.50,
+      "seriousness": 0.95,
+      "curiosity": 0.55,
+      "trust": 0.80,
+      "fear": 0.05,
+      "respect": 0.95,
+      "temper": 0.30,
+      "generosity": 0.60
+    },
+    "daily_schedule": {
+      "morning": "teach",
+      "day": "teach",
+      "evening": "rest",
+      "night": "sleep"
+    }
+  },
+  "npc_19": {
+    "name": "Mischievous Child",
+    "role": "citizen",
+    "importance": "minor",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.70,
+      "honesty": 0.75,
+      "patience": 0.35,
+      "courage": 0.75,
+      "sociability": 0.90,
+      "seriousness": 0.25,
+      "curiosity": 0.95,
+      "trust": 0.75,
+      "fear": 0.30,
+      "respect": 0.50,
+      "temper": 0.60,
+      "generosity": 0.65
+    },
+    "daily_schedule": {
+      "morning": "play",
+      "day": "play",
+      "evening": "play",
+      "night": "sleep"
+    }
+  },
+  "npc_20": {
+    "name": "Mysterious Stranger",
+    "role": "traveler",
+    "importance": "important",
+    "faction": "neutral",
+    "personality": {
+      "kindness": 0.60,
+      "honesty": 0.75,
+      "patience": 0.65,
+      "courage": 0.85,
+      "sociability": 0.55,
+      "seriousness": 0.75,
+      "curiosity": 0.80,
+      "trust": 0.65,
+      "fear": 0.15,
+      "respect": 0.70,
+      "temper": 0.20,
+      "generosity": 0.60
+    },
+    "daily_schedule": {
+      "morning": "wander",
+      "day": "wander",
+      "evening": "rest",
+      "night": "sleep"
+    }
+  }
+}
