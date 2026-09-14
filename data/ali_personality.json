@@ -1,0 +1,77 @@
+{
+  "ali_childhood": {
+    "name": "Ali",
+    "age": 10,
+    "phase": "childhood",
+    "character_id": "ali_child",
+    "importance": "story",
+    "personality": {
+      "kindness": 0.85,
+      "honesty": 0.95,
+      "patience": 0.75,
+      "courage": 0.80,
+      "sociability": 0.70,
+      "seriousness": 0.65,
+      "curiosity": 0.90,
+      "trust": 0.85,
+      "fear": 0.10,
+      "respect": 0.90,
+      "temper": 0.05,
+      "generosity": 0.80
+    },
+    "core_traits": {
+      "trustworthy": true,
+      "honest": true,
+      "courageous": true,
+      "merciful": true,
+      "fair": true,
+      "loyal": true,
+      "observant": true,
+      "calm": true,
+      "responsible": true,
+      "protective_of_others": true,
+      "respectful_toward_elders": true,
+      "kind_toward_children": true
+    },
+    "behavioral_traits": {
+      "loyalty_level": 1.0,
+      "protective_nature": 0.85,
+      "observant_level": 0.90,
+      "responsible_level": 0.85
+    },
+    "value_tracking": {
+      "amanah": 0,
+      "justice": 0,
+      "mercy": 0,
+      "courage": 0,
+      "loyalty": 0
+    },
+    "available_behaviors": [
+      "idle",
+      "look_around",
+      "observe",
+      "walk",
+      "approach",
+      "stop",
+      "listen",
+      "talk",
+      "react",
+      "help",
+      "wait",
+      "follow",
+      "return",
+      "protect",
+      "show_concern"
+    ],
+    "dialogue": {
+      "greeting": "Peace be upon you",
+      "farewell": "May Allah bless you",
+      "help_offer": "I am here to help",
+      "observation": "I have noticed something",
+      "curiosity": "I wonder about this",
+      "concern": "Are you alright?"
+    },
+    "model_path": "",
+    "notes": "Childhood Ali - NO WEAPONS, NO COMBAT. Learning happens through actions and interactions."
+  }
+}
